@@ -15,7 +15,7 @@ st.markdown("**Dự án MindX CSI22** - Upload ảnh biển báo để nhận t�
 
 @st.cache_resource
 def load_my_model():
-    return load_model("speed_sign_model_csi22.h5")
+    return load_model("speed_sign_cnn.h5")
 
 model = load_my_model()
 
