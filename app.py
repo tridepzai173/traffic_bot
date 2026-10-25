@@ -37,4 +37,4 @@ uploaded_file = st.file_uploader("Chọn ảnh biển báo tốc độ", type=["
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="Ảnh bạn upload", use_container_width=True
+    st.image(image, caption="Ảnh bạn upload", use_container_width=True)
