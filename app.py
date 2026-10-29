@@ -10,8 +10,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🚦 Chatbot Nhận diện Biển báo Tốc độ giới hạn")
-st.markdown("**Dự án MindX CSI22**")
+st.title("🚦 Trafixbot")
 
 @st.cache_resource
 def load_my_model():
